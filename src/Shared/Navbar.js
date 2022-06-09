@@ -22,6 +22,12 @@ const Navbar = ({ children }) => {
                             <li><a href="#services">Services</a></li>
                             <li><a href="#projects">Projects</a></li>
                             <li><a href="#contact">Contact</a></li>
+                            <li> <button class="btn btn-primary rounded"><a
+                                href="https://drive.google.com/file/d/1lJQlNyHdav5Qg3lqdunaGJb-oCQT9oGv/view"
+                                download
+
+                                target='_blank'
+                            >Download Resume </a></button></li>
 
                         </ul>
                     </div>
@@ -38,6 +44,11 @@ const Navbar = ({ children }) => {
                     <li><a href="#services">Services</a></li>
                     <li><a href="#projecs">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li> <button class="btn btn-primary rounded"><a
+                        href="https://drive.google.com/file/d/1lJQlNyHdav5Qg3lqdunaGJb-oCQT9oGv/view"
+                        download
+                        target='_blank'
+                    >Download Resume </a></button></li>
 
                 </ul>
 

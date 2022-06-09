@@ -14,21 +14,22 @@ const Contact = () => {
             }, (error) => {
                 console.log(error.text);
             });
+        alert("your email has been sent");
         e.target.reset();
     };
     return (
         <div className='my-20' id="contact">
-          <div className='text-center m-10'>
-          <h2 className='text-5xl font-mono text-primary  font-bold '>Contact</h2>
-            <h3 className='text-2xl text-accent font-mono font-bold'>For any queries contact me!</h3>
-          </div>
+            <div className='text-center m-10'>
+                <h2 className='text-5xl font-mono text-primary  font-bold '>Contact</h2>
+                <h3 className='text-2xl text-accent font-mono font-bold'>For any queries contact me!</h3>
+            </div>
 
             <form ref={form} onSubmit={sendEmail} className='text-center'>
-                <input type="text" name="name" placeholder="Name" class="input input-bordered m-5 input-primary w-full max-w-xs" />
+                <input type="text" name="name" placeholder="Name" class="input input-bordered m-5 input-primary w-full max-w-xs" required/>
                 <br></br>
-                <input type="email" name="email" placeholder="Email" class="input input-bordered m-5 input-primary w-full max-w-xs" />
+                <input type="email" name="email" placeholder="Email" class="input input-bordered m-5 input-primary w-full max-w-xs" required/>
                 <br></br>
-                <textarea class="textarea textarea-bordered m-5 textarea-primary  w-1/3" name="message" placeholder="Message" ></textarea>
+                <textarea class="textarea textarea-bordered m-5 textarea-primary  w-1/3" name="message" placeholder="Message" required></textarea>
                 <br></br>
                 <input value="Send" type="submit" class="input input-bordered input-primary w-full m-5 max-w-xs" />
             </form>

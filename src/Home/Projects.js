@@ -20,16 +20,16 @@ const Projects = () => {
                             tools and give a review shown on the home page. Admin can add/Delete
                             service, make another admin and manage orders.</p>
                         <div class="card-actions justify-end">
-                            <div class="badge badge-outline"><a
+                            <div class="badge badge-outline badge-primary"><a
                                 href="https://parts-manufacturing.web.app/"
                                 target='_blank'
                             >Live Site</a></div>
-                            <div class="badge badge-outline">
+                            <div class="badge badge-outline badge-primary">
                                 <a
                                     href="https://github.com/Mohuya748/MK-manufacturer-client"
                                     target='_blank'
                                 >Client Code</a></div>
-                            <div class="badge badge-outline">
+                            <div class="badge badge-outline badge-primary">
                                 <a
                                     href="https://github.com/Mohuya748/MK-manufacturer-server"
                                     target='_blank'
@@ -46,12 +46,12 @@ const Projects = () => {
                         </h2>
                         <div class="badge badge-outline">Calculating expenses website</div>
                         <p>A single-page responsive website. Users can keep a track of their expenses with this website. </p>
-                        <div class="card-actions justify-end">
-                            <div class="badge badge-outline"><a
+                        <div class="card-actions justify-end ">
+                            <div class="badge badge-outline badge-primary"><a
                                 href="https://cost-calculation.netlify.app/"
                                 target='_blank'
                             >Live Site</a></div>
-                            <div class="badge badge-outline">
+                            <div class="badge badge-outline badge-primary">
                                 <a
                                     href="https://github.com/Mohuya748/cost-calculation"
                                     target='_blank'
@@ -71,11 +71,11 @@ const Projects = () => {
                         <p>A single-page responsive website. It’s a photography service
                             web app. Users can sign up and book their desired photography service.</p>
                         <div class="card-actions justify-end">
-                            <div class="badge badge-outline"><a
+                            <div class="badge badge-outline badge-primary"><a
                                 href="https://mohu-s-photography.web.app/"
                                 target='_blank'
                             >Live Site</a></div>
-                            <div class="badge badge-outline">
+                            <div class="badge badge-outline badge-primary">
                                 <a
                                     href="https://github.com/Mohuya748/Mohus-Photography"
                                     target='_blank'
