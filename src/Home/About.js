@@ -3,7 +3,7 @@ import mohu from '../images/mohu.png'
 
 const About = () => {
     return (
-        <div class="hero min-h-screen bg-base-200 container">
+        <div id='about' class="hero min-h-screen bg-base-200 container">
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <img src={mohu} class=" max-w-sm rounded-lg shadow-2xl" />
                 <div className='p-20'>

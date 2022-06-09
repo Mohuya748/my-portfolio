@@ -17,10 +17,11 @@ const Navbar = ({ children }) => {
                     <div class="flex-none hidden lg:block text-xl mx-20">
                         <ul class="menu menu-horizontal">
 
-                            <li><a>Home</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Projects</a></li>
-                            <li><a>Contact</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
 
                         </ul>
                     </div>
@@ -32,10 +33,11 @@ const Navbar = ({ children }) => {
                 <label for="my-drawer-3" class="drawer-overlay"></label>
                 <ul class="menu p-4 overflow-y-auto w-80 bg-base-100">
 
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Projects</a></li>
-                    <li><a>Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projecs">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
 
                 </ul>
 
