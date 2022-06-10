@@ -19,7 +19,7 @@ const Contact = () => {
     };
     return (
         <div className='my-20' id="contact">
-            <h2 className='text-5xl font-mono text-primary  font-bold '>Contact</h2>
+            <h2 className='text-5xl font-mono text-primary text-center font-bold '>Contact</h2>
             <div class="hero min-h-screen">
 
                 <div class="hero-content flex-col lg:flex-row-reverse">
