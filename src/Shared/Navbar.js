@@ -44,6 +44,7 @@ const Navbar = ({ children }) => {
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#projecs">Projects</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li> <button class="btn btn-primary rounded"><a
                         href="https://drive.google.com/file/d/1lJQlNyHdav5Qg3lqdunaGJb-oCQT9oGv/view"

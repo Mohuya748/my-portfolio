@@ -86,13 +86,9 @@ const Projects = () => {
                                 <label for="my-modal-3" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
                                 <h3 class="text-lg font-bold">Cost Calculation</h3>
                                 <p class="py-10">
-                                    ■ Overview: A full-stack single-page responsive website. Users can order
-                                    tools and give a review shown on the home page. Admin can add/Delete
-                                    service, make another admin and manage orders.</p>
+                                    ■ Overview:A single-page responsive website. Users can keep a track of their expenses with this website.</p>
                                 <p class="py-10">
-                                    ■ Features: Login/Register System With Google, Login/Register System
-                                    With Email and Password, Private Route, Manage Order Status, Make
-                                    user admin</p>
+                                    ■ Features: HTMl,CSS,Bootstrap,Javascript</p>
                                 <div class="card-actions justify-end">
                                     <div class="badge badge-outline badge-primary"><a
                                         href="https://cost-calculation.netlify.app/"
@@ -129,7 +125,7 @@ const Projects = () => {
                             <div class="modal-box relative">
                                 <label for="my-modal-2" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
                                 <h3 class="text-lg font-bold">Mohu's Photography</h3>
-                                
+
                                 <p class="py-10">
                                     ■ Overview: A single-page responsive website. It’s a photography service
                                     web app. Users can sign up and book their desired photography service.</p>
